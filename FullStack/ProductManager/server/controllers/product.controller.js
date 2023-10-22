@@ -13,7 +13,7 @@ exports.createProduct = (req, res) => {
         });
 };
 
-// READ ALL
+// READ ALL THE PRODUCTS
 exports.getAllProducts = (req, res) => {
     console.log('Fetching all products...');
     Product.find()
