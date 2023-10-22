@@ -1,0 +1,4 @@
+# ! Make sure slash is at the end
+node_modules/
+.env
+

@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  display: flex;
+}
+
+.sub-content-container {
+  display: flex;
+}

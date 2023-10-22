@@ -1,0 +1,44 @@
+.tabs-container {
+    width: 300px;
+}
+
+.tab-headers {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 0;
+}
+
+.tab-headers li {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.tab-headers li.active {
+    background-color: orange;
+    color: black;
+}
+
+.tab-content div {
+    display: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    margin-top: 0;
+    background-color: white;
+}
+
+.tab-content div.active {
+    display: block;
+}
