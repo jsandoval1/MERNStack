@@ -27,7 +27,7 @@ exports.getAllProducts = (req, res) => {
         });
 };
 
-// READ ONE
+// READ ONE INDIVIDUAL PRODUCT
 exports.getProductById = (req, res) => {
     console.log(`Fetching product with ID ${req.params.id}...`);
     Product.findById(req.params.id)
@@ -41,7 +41,7 @@ exports.getProductById = (req, res) => {
         });
 };
 
-// UPDATE ONE
+// UPDATE ONE LONELY PRODUCT
 exports.updateProduct = (req, res) => {
     Product.findByIdAndUpdate(
         req.params.id,
